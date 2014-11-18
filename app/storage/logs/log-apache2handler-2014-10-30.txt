@@ -1,0 +1,27 @@
+[2014-10-30 11:18:50] log.ERROR: exception 'ErrorException' with message 'Undefined index: qual' in C:\xampp\htdocs\laravel_users\app\controllers\HomeController.php:91
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\app\controllers\HomeController.php(91): Illuminate\Exception\Handler->handleError(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 91, Array)
+#1 [internal function]: HomeController->postRegister()
+#2 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postRegister', Array)
+#4 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Routing\Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postRegister', Array)
+#5 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#6 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Routing\Route.php(80): call_user_func_array(Object(Closure), Array)
+#7 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Routing\Route.php(47): Illuminate\Routing\Route->callCallable()
+#8 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(531): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#12 {main} [] []
+[2014-10-30 11:19:18] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to a member function getClientOriginalExtension() on a non-object' in C:\xampp\htdocs\laravel_users\app\controllers\HomeController.php:119
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-10-30 11:25:39] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Interface 'LaravelBook\Ardent\Ardent' not found' in C:\xampp\htdocs\laravel_users\app\models\User.php:7
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-10-30 11:26:29] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'LaravelBook\Ardent\Ardent' not found' in C:\xampp\htdocs\laravel_users\app\models\User.php:7
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []

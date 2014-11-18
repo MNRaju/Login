@@ -1,0 +1,52 @@
+
+<?php $__env->startSection('content'); ?>
+
+<?php 
+
+// These three are working 1): Default Query 2): Using Conrtole and 3): Using moddel.
+
+//$categories = DB::select('select * from categories');
+//$categories = Categorie::all();
+
+//$categories = DB::table('categories')->lists('catname' ,'id');
+
+//$categories = Categorie::lists('catname' ,'id');
+//print_r($categories);
+
+
+
+//To get the records using joins.
+
+
+//$usercat=DB::table('users')  ->leftJoin('categories', 'users.catid', '=', 'categories.id')  ->get();
+
+//echo "<pre>";
+
+//print_r($usercat);
+
+
+?>
+
+<div class="row">
+	<div class="span4 offset1">
+		<div class="well">
+			<legend>Add Category</legend>
+			<?php echo Form::open(array('url' => 'categories/addcategory' ,'files' => true )); ?>
+			<?php if($errors->any()): ?>
+			<div class="alert alert-error">
+				<a href="#" class="close" data-dismiss="alert">&times;</a>
+				<?php echo implode('', $errors->all('<li class="error">:message</li>')); ?>
+			</div>
+			<?php endif; ?>
+			<?php echo Form::text('catname', '', array('placeholder' => 'Category Name')); ?><br>
+
+			<?php echo Form::submit('Add', array('class' => 'btn btn-success')); ?>
+			<?php echo HTML::link('categories/categories', 'Cancel', array('class' => 'btn btn-danger')); ?>
+			<?php echo Form::close(); ?>
+		</div>
+	</div>	
+</div>
+
+
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('master', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

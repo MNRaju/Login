@@ -1,0 +1,719 @@
+[2014-10-09 12:03:40] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\laravel_users\bootstrap\compiled.php:4945
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4790): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4778): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-10-09 12:03:44] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\laravel_users\bootstrap\compiled.php:4945
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4790): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4778): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-10-09 12:03:50] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\laravel_users\bootstrap\compiled.php:4945
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4790): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4778): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-10-09 12:04:45] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\laravel_users\bootstrap\compiled.php:4945
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4790): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4778): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-10-09 12:11:20] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\laravel_users\bootstrap\compiled.php:4945
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4790): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4778): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-10-09 12:11:23] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\laravel_users\bootstrap\compiled.php:4945
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4790): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4778): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-10-09 12:11:32] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\laravel_users\bootstrap\compiled.php:4945
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4790): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4778): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-10-09 12:22:04] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\laravel_users\bootstrap\compiled.php:4945
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4790): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4778): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-10-09 12:23:32] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\laravel_users\bootstrap\compiled.php:4945
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4790): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4778): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-10-09 12:25:05] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '', '' (T_CONSTANT_ENCAPSED_STRING)' in C:\xampp\htdocs\laravel_users\app\storage\views\85f66369f95cc519b131386c4d0053ce:24
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-10-09 12:25:37] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '', '' (T_CONSTANT_ENCAPSED_STRING)' in C:\xampp\htdocs\laravel_users\app\storage\views\85f66369f95cc519b131386c4d0053ce:24
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-10-09 12:25:50] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '', '' (T_CONSTANT_ENCAPSED_STRING)' in C:\xampp\htdocs\laravel_users\app\storage\views\85f66369f95cc519b131386c4d0053ce:23
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-10-09 12:28:18] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '', '' (T_CONSTANT_ENCAPSED_STRING)' in C:\xampp\htdocs\laravel_users\app\storage\views\85f66369f95cc519b131386c4d0053ce:23
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-10-09 12:28:34] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '', '' (T_CONSTANT_ENCAPSED_STRING)' in C:\xampp\htdocs\laravel_users\app\storage\views\85f66369f95cc519b131386c4d0053ce:23
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-10-09 12:29:01] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '', '' (T_CONSTANT_ENCAPSED_STRING)' in C:\xampp\htdocs\laravel_users\app\storage\views\85f66369f95cc519b131386c4d0053ce:23
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-10-09 12:29:25] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\laravel_users\bootstrap\compiled.php:4945
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4790): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4778): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-10-09 12:30:00] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\laravel_users\bootstrap\compiled.php:4945
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4790): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4778): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-10-09 12:32:03] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in C:\xampp\htdocs\laravel_users\bootstrap\compiled.php:4948
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4790): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4778): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-10-09 12:32:58] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in C:\xampp\htdocs\laravel_users\bootstrap\compiled.php:4948
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4790): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4778): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-10-09 12:33:05] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\laravel_users\bootstrap\compiled.php:4945
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4790): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4778): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-10-09 12:43:01] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in C:\xampp\htdocs\laravel_users\bootstrap\compiled.php:4948
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4790): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4778): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-10-09 12:45:19] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in C:\xampp\htdocs\laravel_users\bootstrap\compiled.php:4948
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4790): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4778): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-10-09 12:48:21] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in C:\xampp\htdocs\laravel_users\bootstrap\compiled.php:4948
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4790): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4778): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-10-09 12:49:11] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in C:\xampp\htdocs\laravel_users\bootstrap\compiled.php:4948
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4790): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4778): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-10-09 12:49:24] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in C:\xampp\htdocs\laravel_users\bootstrap\compiled.php:4948
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4790): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4778): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-10-09 12:56:48] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in C:\xampp\htdocs\laravel_users\bootstrap\compiled.php:4948
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4790): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4778): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-10-09 12:58:32] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\laravel_users\bootstrap\compiled.php:4945
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4790): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4778): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-10-09 13:07:00] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in C:\xampp\htdocs\laravel_users\bootstrap\compiled.php:4948
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4790): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4778): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-10-09 13:12:06] log.ERROR: exception 'ErrorException' with message 'Undefined variable: user' in C:\xampp\htdocs\laravel_users\app\storage\views\ec456d8cc79f016d82ae3870cb9a11d3:27
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\app\storage\views\ec456d8cc79f016d82ae3870cb9a11d3(27): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(9050): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(8943): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(8934): Illuminate\View\View->getContents()
+#5 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(9528): Illuminate\View\View->render()
+#6 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(9076): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4938): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(156): Illuminate\Routing\Router->prepare(Object(Illuminate\View\View), Object(Illuminate\Http\Request))
+#9 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'edit', Object(Illuminate\View\View))
+#10 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4768): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'edit', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('1')
+#12 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(7838): call_user_func_array(Object(Closure), Array)
+#13 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(7825): Illuminate\Routing\Route->callCallable()
+#14 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4779): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2014-10-09 13:12:43] log.ERROR: exception 'ErrorException' with message 'Undefined variable: nerd' in C:\xampp\htdocs\laravel_users\app\storage\views\ec456d8cc79f016d82ae3870cb9a11d3:32
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\app\storage\views\ec456d8cc79f016d82ae3870cb9a11d3(32): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(9050): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(8943): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(8934): Illuminate\View\View->getContents()
+#5 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(9528): Illuminate\View\View->render()
+#6 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(9076): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4938): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(156): Illuminate\Routing\Router->prepare(Object(Illuminate\View\View), Object(Illuminate\Http\Request))
+#9 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'edit', Object(Illuminate\View\View))
+#10 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4768): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'edit', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('1')
+#12 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(7838): call_user_func_array(Object(Closure), Array)
+#13 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(7825): Illuminate\Routing\Route->callCallable()
+#14 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4779): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2014-10-09 13:13:25] log.ERROR: exception 'Symfony\Component\Routing\Exception\RouteNotFoundException' with message 'Unable to generate a URL for the named route "users.update" as such route does not exist.' in C:\xampp\htdocs\laravel_users\vendor\symfony\routing\Symfony\Component\Routing\Generator\UrlGenerator.php:134
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Routing\UrlGenerator.php(192): Symfony\Component\Routing\Generator\UrlGenerator->generate('users.update', Array, true)
+#1 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Html\FormBuilder.php(680): Illuminate\Routing\UrlGenerator->route('users.update', Array)
+#2 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Html\FormBuilder.php(640): Illuminate\Html\FormBuilder->getRouteAction(Array)
+#3 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Html\FormBuilder.php(102): Illuminate\Html\FormBuilder->getAction(Array)
+#4 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Html\FormBuilder.php(144): Illuminate\Html\FormBuilder->open(Array)
+#5 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(3338): Illuminate\Html\FormBuilder->model(Object(User), Array)
+#6 C:\xampp\htdocs\laravel_users\app\storage\views\ec456d8cc79f016d82ae3870cb9a11d3(32): Illuminate\Support\Facades\Facade::__callStatic('model', Array)
+#7 C:\xampp\htdocs\laravel_users\app\storage\views\ec456d8cc79f016d82ae3870cb9a11d3(32): Illuminate\Support\Facades\Form::model(Object(User), Array)
+#8 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(9050): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
+#10 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(8943): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
+#11 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(8934): Illuminate\View\View->getContents()
+#12 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(9528): Illuminate\View\View->render()
+#13 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(9076): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#14 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4938): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#15 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(156): Illuminate\Routing\Router->prepare(Object(Illuminate\View\View), Object(Illuminate\Http\Request))
+#16 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'edit', Object(Illuminate\View\View))
+#17 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4768): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'edit', Array)
+#18 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('1')
+#19 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(7838): call_user_func_array(Object(Closure), Array)
+#20 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(7825): Illuminate\Routing\Route->callCallable()
+#21 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4779): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#22 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#23 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#24 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#25 {main} [] []
+[2014-10-09 13:14:01] log.ERROR: exception 'Symfony\Component\Routing\Exception\RouteNotFoundException' with message 'Unable to generate a URL for the named route "users.update" as such route does not exist.' in C:\xampp\htdocs\laravel_users\vendor\symfony\routing\Symfony\Component\Routing\Generator\UrlGenerator.php:134
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Routing\UrlGenerator.php(192): Symfony\Component\Routing\Generator\UrlGenerator->generate('users.update', Array, true)
+#1 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Html\FormBuilder.php(680): Illuminate\Routing\UrlGenerator->route('users.update', Array)
+#2 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Html\FormBuilder.php(640): Illuminate\Html\FormBuilder->getRouteAction(Array)
+#3 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Html\FormBuilder.php(102): Illuminate\Html\FormBuilder->getAction(Array)
+#4 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Html\FormBuilder.php(144): Illuminate\Html\FormBuilder->open(Array)
+#5 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(3338): Illuminate\Html\FormBuilder->model(Object(User), Array)
+#6 C:\xampp\htdocs\laravel_users\app\storage\views\ec456d8cc79f016d82ae3870cb9a11d3(32): Illuminate\Support\Facades\Facade::__callStatic('model', Array)
+#7 C:\xampp\htdocs\laravel_users\app\storage\views\ec456d8cc79f016d82ae3870cb9a11d3(32): Illuminate\Support\Facades\Form::model(Object(User), Array)
+#8 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(9050): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
+#10 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(8943): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
+#11 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(8934): Illuminate\View\View->getContents()
+#12 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(9528): Illuminate\View\View->render()
+#13 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(9076): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#14 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4938): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#15 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(156): Illuminate\Routing\Router->prepare(Object(Illuminate\View\View), Object(Illuminate\Http\Request))
+#16 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'edit', Object(Illuminate\View\View))
+#17 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4768): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'edit', Array)
+#18 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('1')
+#19 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(7838): call_user_func_array(Object(Closure), Array)
+#20 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(7825): Illuminate\Routing\Route->callCallable()
+#21 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4779): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#22 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#23 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#24 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#25 {main} [] []
+[2014-10-09 13:47:56] log.ERROR: exception 'ErrorException' with message 'Undefined variable: users' in C:\xampp\htdocs\laravel_users\app\storage\views\ec456d8cc79f016d82ae3870cb9a11d3:32
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\app\storage\views\ec456d8cc79f016d82ae3870cb9a11d3(32): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(9050): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(8943): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(8934): Illuminate\View\View->getContents()
+#5 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(9528): Illuminate\View\View->render()
+#6 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(9076): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4938): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(156): Illuminate\Routing\Router->prepare(Object(Illuminate\View\View), Object(Illuminate\Http\Request))
+#9 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'edit', Object(Illuminate\View\View))
+#10 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4768): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'edit', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('1')
+#12 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(7838): call_user_func_array(Object(Closure), Array)
+#13 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(7825): Illuminate\Routing\Route->callCallable()
+#14 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4779): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2014-10-09 13:54:36] log.ERROR: exception 'ErrorException' with message 'Undefined variable: user' in C:\xampp\htdocs\laravel_users\app\storage\views\ec456d8cc79f016d82ae3870cb9a11d3:27
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\app\storage\views\ec456d8cc79f016d82ae3870cb9a11d3(27): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(9050): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(8943): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(8934): Illuminate\View\View->getContents()
+#5 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(9528): Illuminate\View\View->render()
+#6 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(9076): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4938): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(156): Illuminate\Routing\Router->prepare(Object(Illuminate\View\View), Object(Illuminate\Http\Request))
+#9 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'edit', Object(Illuminate\View\View))
+#10 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4768): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'edit', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('1')
+#12 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(7838): call_user_func_array(Object(Closure), Array)
+#13 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(7825): Illuminate\Routing\Route->callCallable()
+#14 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4779): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2014-10-09 14:03:24] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\laravel_users\bootstrap\compiled.php:4945
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4790): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4778): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-10-09 14:05:28] log.ERROR: exception 'Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list' (SQL: update `users` set `password` = ?, `updated_at` = ?, `name` = ? where `id` = ?) (Bindings: array (
+  0 => 'admin',
+  1 => '2014-10-09 14:05:28',
+  2 => 'Malladi Nookaraju',
+  3 => 1,
+))' in C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Database\Connection.php:502
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Database\Connection.php(475): Illuminate\Database\Connection->handleQueryException(Object(PDOException), 'update `users` ...', Array)
+#1 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Database\Connection.php(348): Illuminate\Database\Connection->run('update `users` ...', Array, Object(Closure))
+#2 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Database\Connection.php(293): Illuminate\Database\Connection->affectingStatement('update `users` ...', Array)
+#3 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Database\Query\Builder.php(1362): Illuminate\Database\Connection->update('update `users` ...', Array)
+#4 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Builder.php(233): Illuminate\Database\Query\Builder->update(Array)
+#5 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(5694): Illuminate\Database\Eloquent\Builder->update(Array)
+#6 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(5666): Illuminate\Database\Eloquent\Model->performUpdate(Object(Illuminate\Database\Eloquent\Builder))
+#7 C:\xampp\htdocs\laravel_users\app\controllers\AdminController.php(74): Illuminate\Database\Eloquent\Model->save()
+#8 [internal function]: AdminController->update('1')
+#9 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#10 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('update', Array)
+#11 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4768): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'update', Array)
+#12 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('1')
+#13 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(7838): call_user_func_array(Object(Closure), Array)
+#14 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(7825): Illuminate\Routing\Route->callCallable()
+#15 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4779): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#16 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#17 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#18 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#19 {main} [] []
+[2014-10-09 14:13:12] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in C:\xampp\htdocs\laravel_users\bootstrap\compiled.php:4948
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4790): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4778): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-10-09 14:13:25] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in C:\xampp\htdocs\laravel_users\bootstrap\compiled.php:4948
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4790): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4778): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-10-09 14:14:00] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in C:\xampp\htdocs\laravel_users\bootstrap\compiled.php:4948
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4790): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4778): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-10-09 14:14:18] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in C:\xampp\htdocs\laravel_users\bootstrap\compiled.php:4948
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4790): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4778): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-10-09 14:15:20] log.ERROR: exception 'Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list' (SQL: update `users` set `password` = ?, `updated_at` = ?, `name` = ? where `id` = ?) (Bindings: array (
+  0 => 'admin',
+  1 => '2014-10-09 14:15:20',
+  2 => 'Malladi Nookaraju',
+  3 => 1,
+))' in C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Database\Connection.php:502
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Database\Connection.php(475): Illuminate\Database\Connection->handleQueryException(Object(PDOException), 'update `users` ...', Array)
+#1 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Database\Connection.php(348): Illuminate\Database\Connection->run('update `users` ...', Array, Object(Closure))
+#2 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Database\Connection.php(293): Illuminate\Database\Connection->affectingStatement('update `users` ...', Array)
+#3 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Database\Query\Builder.php(1362): Illuminate\Database\Connection->update('update `users` ...', Array)
+#4 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Builder.php(233): Illuminate\Database\Query\Builder->update(Array)
+#5 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(5694): Illuminate\Database\Eloquent\Builder->update(Array)
+#6 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(5666): Illuminate\Database\Eloquent\Model->performUpdate(Object(Illuminate\Database\Eloquent\Builder))
+#7 C:\xampp\htdocs\laravel_users\app\controllers\AdminController.php(74): Illuminate\Database\Eloquent\Model->save()
+#8 [internal function]: AdminController->update('1')
+#9 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#10 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('update', Array)
+#11 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4768): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'update', Array)
+#12 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('1')
+#13 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(7838): call_user_func_array(Object(Closure), Array)
+#14 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(7825): Illuminate\Routing\Route->callCallable()
+#15 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4779): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#16 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#17 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#18 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#19 {main} [] []
+[2014-10-09 14:16:42] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in C:\xampp\htdocs\laravel_users\bootstrap\compiled.php:4948
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4790): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4778): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-10-09 14:18:28] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\laravel_users\bootstrap\compiled.php:4945
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4790): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4778): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-10-09 14:19:32] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in C:\xampp\htdocs\laravel_users\bootstrap\compiled.php:4948
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4790): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4778): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-10-09 14:21:05] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in C:\xampp\htdocs\laravel_users\bootstrap\compiled.php:4948
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4790): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4778): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-10-09 14:21:56] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\laravel_users\bootstrap\compiled.php:4945
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4790): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4778): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-10-09 14:22:24] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to a member function delete() on a non-object' in C:\xampp\htdocs\laravel_users\app\controllers\AdminController.php:30
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-10-09 14:23:53] log.ERROR: exception 'Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list' (SQL: update `users` set `password` = ?, `updated_at` = ?, `name` = ? where `id` = ?) (Bindings: array (
+  0 => 'admin',
+  1 => '2014-10-09 14:23:53',
+  2 => 'Malladi Nookaraju',
+  3 => 1,
+))' in C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Database\Connection.php:502
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Database\Connection.php(475): Illuminate\Database\Connection->handleQueryException(Object(PDOException), 'update `users` ...', Array)
+#1 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Database\Connection.php(348): Illuminate\Database\Connection->run('update `users` ...', Array, Object(Closure))
+#2 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Database\Connection.php(293): Illuminate\Database\Connection->affectingStatement('update `users` ...', Array)
+#3 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Database\Query\Builder.php(1362): Illuminate\Database\Connection->update('update `users` ...', Array)
+#4 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Builder.php(233): Illuminate\Database\Query\Builder->update(Array)
+#5 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(5694): Illuminate\Database\Eloquent\Builder->update(Array)
+#6 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(5666): Illuminate\Database\Eloquent\Model->performUpdate(Object(Illuminate\Database\Eloquent\Builder))
+#7 C:\xampp\htdocs\laravel_users\app\controllers\AdminController.php(75): Illuminate\Database\Eloquent\Model->save()
+#8 [internal function]: AdminController->update('1')
+#9 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#10 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('update', Array)
+#11 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4768): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'update', Array)
+#12 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('1')
+#13 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(7838): call_user_func_array(Object(Closure), Array)
+#14 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(7825): Illuminate\Routing\Route->callCallable()
+#15 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4779): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#16 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#17 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#18 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#19 {main} [] []
+[2014-10-09 14:26:58] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\laravel_users\bootstrap\compiled.php:4945
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4790): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4778): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-10-09 14:27:45] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in C:\xampp\htdocs\laravel_users\bootstrap\compiled.php:4948
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4790): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4778): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-10-09 14:40:21] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to a member function delete() on a non-object' in C:\xampp\htdocs\laravel_users\app\controllers\AdminController.php:30
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-10-09 14:44:25] log.ERROR: exception 'ErrorException' with message 'Trying to get property of non-object' in C:\xampp\htdocs\laravel_users\app\storage\views\ec456d8cc79f016d82ae3870cb9a11d3:28
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\app\storage\views\ec456d8cc79f016d82ae3870cb9a11d3(28): Illuminate\Exception\Handler->handleError(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(9050): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(8943): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(8934): Illuminate\View\View->getContents()
+#5 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(9528): Illuminate\View\View->render()
+#6 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(9076): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4938): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(156): Illuminate\Routing\Router->prepare(Object(Illuminate\View\View), Object(Illuminate\Http\Request))
+#9 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'edit', Object(Illuminate\View\View))
+#10 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4768): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'edit', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('6')
+#12 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(7838): call_user_func_array(Object(Closure), Array)
+#13 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(7825): Illuminate\Routing\Route->callCallable()
+#14 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4779): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2014-10-09 14:45:35] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in C:\xampp\htdocs\laravel_users\bootstrap\compiled.php:4948
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4790): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4778): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-10-09 14:45:39] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in C:\xampp\htdocs\laravel_users\bootstrap\compiled.php:4948
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4790): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4778): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-10-09 14:48:19] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '}', expecting ',' or ';'' in C:\xampp\htdocs\laravel_users\app\storage\views\a2777805135b2e38005dbef714ef7529:84
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-10-09 14:49:24] log.ERROR: exception 'ErrorException' with message 'Illegal string offset 'name'' in C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Html\FormBuilder.php:213
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Html\FormBuilder.php(213): Illuminate\Exception\Handler->handleError(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 213, Array)
+#1 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Html\FormBuilder.php(270): Illuminate\Html\FormBuilder->input('hidden', '_method', 'DELETE', 'onClick="return...')
+#2 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(3340): Illuminate\Html\FormBuilder->hidden('_method', 'DELETE', 'onClick="return...')
+#3 C:\xampp\htdocs\laravel_users\app\storage\views\a2777805135b2e38005dbef714ef7529(84): Illuminate\Support\Facades\Facade::__callStatic('hidden', Array)
+#4 C:\xampp\htdocs\laravel_users\app\storage\views\a2777805135b2e38005dbef714ef7529(84): Illuminate\Support\Facades\Form::hidden('_method', 'DELETE', 'onClick="return...')
+#5 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(9050): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
+#7 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(8943): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
+#8 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(8934): Illuminate\View\View->getContents()
+#9 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(9528): Illuminate\View\View->render()
+#10 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(9076): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#11 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4938): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#12 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(156): Illuminate\Routing\Router->prepare(Object(Illuminate\View\View), Object(Illuminate\Http\Request))
+#13 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'getUsers', Object(Illuminate\View\View))
+#14 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4768): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'getUsers', Array)
+#15 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#16 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(7838): call_user_func_array(Object(Closure), Array)
+#17 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(7825): Illuminate\Routing\Route->callCallable()
+#18 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4779): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#19 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#20 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#21 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#22 {main} [] []
+[2014-10-09 14:49:44] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in C:\xampp\htdocs\laravel_users\bootstrap\compiled.php:4948
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4790): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4778): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-10-09 14:51:15] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\laravel_users\bootstrap\compiled.php:4945
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4790): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4778): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-10-09 14:51:25] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\laravel_users\bootstrap\compiled.php:4945
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4790): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4778): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-10-09 14:52:07] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\laravel_users\bootstrap\compiled.php:4945
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4790): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4778): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-10-09 14:52:16] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\laravel_users\bootstrap\compiled.php:4945
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4790): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4778): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-10-09 14:52:27] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\laravel_users\bootstrap\compiled.php:4945
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4790): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4778): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-10-09 14:52:36] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in C:\xampp\htdocs\laravel_users\bootstrap\compiled.php:4948
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4790): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4778): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-10-09 14:53:10] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\laravel_users\bootstrap\compiled.php:4945
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4790): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4778): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-10-09 14:53:58] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\laravel_users\bootstrap\compiled.php:4945
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4790): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4778): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-10-09 14:54:05] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\laravel_users\bootstrap\compiled.php:4945
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4790): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4778): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-10-09 14:55:12] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in C:\xampp\htdocs\laravel_users\bootstrap\compiled.php:4948
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4790): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4778): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-10-09 14:55:26] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in C:\xampp\htdocs\laravel_users\bootstrap\compiled.php:4948
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4790): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4778): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-10-09 14:56:38] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in C:\xampp\htdocs\laravel_users\bootstrap\compiled.php:4948
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4790): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4778): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-10-09 15:02:31] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\laravel_users\bootstrap\compiled.php:4945
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4790): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4778): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-10-09 15:04:48] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in C:\xampp\htdocs\laravel_users\bootstrap\compiled.php:4948
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4790): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4778): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-10-09 15:32:08] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected ';'' in C:\xampp\htdocs\laravel_users\app\controllers\AdminController.php:77
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-10-09 16:45:27] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to a member function move() on a non-object' in C:\xampp\htdocs\laravel_users\app\controllers\HomeController.php:84
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []

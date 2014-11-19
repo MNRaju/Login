@@ -1,0 +1,53 @@
+
+
+<?php $__env->startSection('content'); ?>
+
+<?php 
+//print_r($cat);
+
+//echo $cat['id'];
+
+?>
+
+
+
+<style type="text/css">
+#usertab{ color: #0088cc;}
+
+</style>
+
+
+<div class="row">
+
+    <div class="">  
+        <div class="well">
+            <legend>Edit Category Details</legend>
+            <?php if($errors->any()): ?>
+            <div class="alert alert-error"> 
+                <a href="#" class="close" data-dismiss="alert">&times;</a>
+                <?php echo implode('', $errors->all('<li class="error">:message</li>')); ?>
+            </div>
+            <?php endif; ?>
+
+             <table border="0" cellpadding='10px;'  cellspacing='10px;'>
+                <tr><td>
+
+                <?php echo Form::model($cat, array('route' => array('categories.update', $cat->id), 'method' => 'PUT')); ?>
+
+                    <div class="form-group">
+                        <?php echo Form::label('catname', 'Category Name'); ?>
+                        <?php echo Form::text('catname', null, array('class' => 'form-control')); ?>
+                    </div>
+        
+                    <?php echo Form::submit('Edit', array('class' => 'btn btn-primary')); ?>
+
+                <?php echo Form::close(); ?>
+
+
+            </td></tr>
+                
+
+
+
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('master', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

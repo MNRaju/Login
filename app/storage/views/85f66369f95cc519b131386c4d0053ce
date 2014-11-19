@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>My Website</title>
+	<?php echo HTML::script('js/jquery.js'); ?>
+	<?php echo HTML::script('js/bootstrap.js'); ?>
+	<?php echo HTML::style('css/bootstrap.css'); ?>
+
+</head>
+<body>
+<div class="row-fluid">
+	<div class="span12 well">
+		<h1>My Website</h1>
+	</div>
+</div>
+<div class="row-fluid">
+	<div class="span3">
+		<ul class="nav nav-list well">
+			<?php if(Auth::user()): ?>
+			<li class="nav-header"><?php echo ucwords(Auth::user()->username); ?></li>
+			<li><?php echo HTML::link('post', 'Add Post'); ?></li>
+			<li><?php echo HTML::link('admin/users', 'View Users'); ?></li>
+			<li><?php echo HTML::link('categories/categories', 'View Categories'); ?></li>
+			<li><?php echo HTML::link('logout', 'Logout'); ?></li>
+			<?php else: ?>
+			<li><?php echo HTML::link('login', 'Login'); ?></li>
+			<?php endif; ?>
+		</ul>
+	</div>
+	<div class="span9">
+		<?php echo $__env->yieldContent('content'); ?>
+	</div>
+</div>
+</body>
+</html>

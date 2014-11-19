@@ -1,0 +1,515 @@
+[2014-10-27 08:59:04] log.ERROR: exception 'ErrorException' with message 'htmlentities() expects parameter 1 to be string, object given' in C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Support\helpers.php:502
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleError(2, 'htmlentities() ...', 'C:\\xampp\\htdocs...', 502, Array)
+#1 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Support\helpers.php(502): htmlentities(Object(stdClass), 3, 'UTF-8', false)
+#2 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Html\FormBuilder.php(457): e(Object(stdClass))
+#3 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Html\FormBuilder.php(420): Illuminate\Html\FormBuilder->option(Object(stdClass), 0, NULL)
+#4 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Html\FormBuilder.php(392): Illuminate\Html\FormBuilder->getSelectOption(Object(stdClass), 0, NULL)
+#5 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(3338): Illuminate\Html\FormBuilder->select('catid', Array)
+#6 C:\xampp\htdocs\laravel_users\app\storage\views\8808b57d1f2446af6be8f5c88e5715ed(39): Illuminate\Support\Facades\Facade::__callStatic('select', Array)
+#7 C:\xampp\htdocs\laravel_users\app\storage\views\8808b57d1f2446af6be8f5c88e5715ed(39): Illuminate\Support\Facades\Form::select('catid', Array)
+#8 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(9050): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
+#10 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(8943): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
+#11 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(8934): Illuminate\View\View->getContents()
+#12 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(9528): Illuminate\View\View->render()
+#13 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(9076): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#14 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4938): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#15 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(156): Illuminate\Routing\Router->prepare(Object(Illuminate\View\View), Object(Illuminate\Http\Request))
+#16 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'getRegister', Object(Illuminate\View\View))
+#17 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4768): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'getRegister', Array)
+#18 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#19 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(7838): call_user_func_array(Object(Closure), Array)
+#20 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(7825): Illuminate\Routing\Route->callCallable()
+#21 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4779): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#22 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#23 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#24 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#25 {main} [] []
+[2014-10-27 09:04:02] log.ERROR: exception 'Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list' (SQL: select `name`, `id` from `categories`) (Bindings: array (
+))' in C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Database\Connection.php:502
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Database\Connection.php(475): Illuminate\Database\Connection->handleQueryException(Object(PDOException), 'select `name`, ...', Array)
+#1 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Database\Connection.php(269): Illuminate\Database\Connection->run('select `name`, ...', Array, Object(Closure))
+#2 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Database\Query\Builder.php(966): Illuminate\Database\Connection->select('select `name`, ...', Array)
+#3 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Database\Query\Builder.php(956): Illuminate\Database\Query\Builder->runSelect()
+#4 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Database\Query\Builder.php(943): Illuminate\Database\Query\Builder->getFresh(Array)
+#5 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Database\Query\Builder.php(1050): Illuminate\Database\Query\Builder->get(Array)
+#6 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Builder.php(147): Illuminate\Database\Query\Builder->lists('name', 'id')
+#7 [internal function]: Illuminate\Database\Eloquent\Builder->lists('name', 'id')
+#8 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(6241): call_user_func_array(Array, Array)
+#9 [internal function]: Illuminate\Database\Eloquent\Model->__call('lists', Array)
+#10 [internal function]: Categorie->lists('name', 'id')
+#11 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(6246): call_user_func_array(Array, Array)
+#12 C:\xampp\htdocs\laravel_users\app\storage\views\8808b57d1f2446af6be8f5c88e5715ed(11): Illuminate\Database\Eloquent\Model::__callStatic('lists', Array)
+#13 C:\xampp\htdocs\laravel_users\app\storage\views\8808b57d1f2446af6be8f5c88e5715ed(11): Categorie::lists('name', 'id')
+#14 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(9050): include('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
+#16 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(8943): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
+#17 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(8934): Illuminate\View\View->getContents()
+#18 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(9528): Illuminate\View\View->render()
+#19 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(9076): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#20 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4938): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#21 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(156): Illuminate\Routing\Router->prepare(Object(Illuminate\View\View), Object(Illuminate\Http\Request))
+#22 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'getRegister', Object(Illuminate\View\View))
+#23 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4768): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'getRegister', Array)
+#24 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#25 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(7838): call_user_func_array(Object(Closure), Array)
+#26 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(7825): Illuminate\Routing\Route->callCallable()
+#27 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4779): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#28 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#29 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#30 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#31 {main} [] []
+[2014-10-27 09:33:34] log.ERROR: exception 'Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'users.catidid' in 'on clause' (SQL: select * from `users` left join `categories` on `users`.`catidid` = `categories`.`id`) (Bindings: array (
+))' in C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Database\Connection.php:502
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Database\Connection.php(475): Illuminate\Database\Connection->handleQueryException(Object(PDOException), 'select * from `...', Array)
+#1 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Database\Connection.php(269): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#2 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Database\Query\Builder.php(966): Illuminate\Database\Connection->select('select * from `...', Array)
+#3 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Database\Query\Builder.php(956): Illuminate\Database\Query\Builder->runSelect()
+#4 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Database\Query\Builder.php(943): Illuminate\Database\Query\Builder->getFresh(Array)
+#5 C:\xampp\htdocs\laravel_users\app\storage\views\8808b57d1f2446af6be8f5c88e5715ed(23): Illuminate\Database\Query\Builder->get()
+#6 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(9050): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
+#8 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(8943): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
+#9 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(8934): Illuminate\View\View->getContents()
+#10 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(9528): Illuminate\View\View->render()
+#11 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(9076): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#12 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4938): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#13 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(156): Illuminate\Routing\Router->prepare(Object(Illuminate\View\View), Object(Illuminate\Http\Request))
+#14 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'getRegister', Object(Illuminate\View\View))
+#15 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4768): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'getRegister', Array)
+#16 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#17 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(7838): call_user_func_array(Object(Closure), Array)
+#18 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(7825): Illuminate\Routing\Route->callCallable()
+#19 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4779): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#20 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#21 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#22 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#23 {main} [] []
+[2014-10-27 09:51:45] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '->' (T_OBJECT_OPERATOR)' in C:\xampp\htdocs\laravel_users\app\storage\views\8808b57d1f2446af6be8f5c88e5715ed:22
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-10-27 09:52:40] log.ERROR: exception 'BadMethodCallException' with message 'Call to undefined method Illuminate\Database\Query\Builder::table()' in C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Database\Query\Builder.php:1573
+Stack trace:
+#0 [internal function]: Illuminate\Database\Query\Builder->__call('table', Array)
+#1 [internal function]: Illuminate\Database\Query\Builder->table('users')
+#2 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Builder.php(729): call_user_func_array(Array, Array)
+#3 [internal function]: Illuminate\Database\Eloquent\Builder->__call('table', Array)
+#4 [internal function]: Illuminate\Database\Eloquent\Builder->table('users')
+#5 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(6241): call_user_func_array(Array, Array)
+#6 [internal function]: Illuminate\Database\Eloquent\Model->__call('table', Array)
+#7 [internal function]: User->table('users')
+#8 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(6246): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\laravel_users\app\controllers\HomeController.php(64): Illuminate\Database\Eloquent\Model::__callStatic('table', Array)
+#10 C:\xampp\htdocs\laravel_users\app\controllers\HomeController.php(64): User::table('users')
+#11 [internal function]: HomeController->getRegister()
+#12 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#13 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('getRegister', Array)
+#14 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4768): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'getRegister', Array)
+#15 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#16 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(7838): call_user_func_array(Object(Closure), Array)
+#17 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(7825): Illuminate\Routing\Route->callCallable()
+#18 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4779): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#19 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#20 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#21 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#22 {main} [] []
+[2014-10-27 09:54:40] log.ERROR: exception 'ErrorException' with message 'Argument 1 passed to Illuminate\Database\Grammar::columnize() must be of the type array, string given, called in C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Database\Query\Grammars\Grammar.php on line 111 and defined' in C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Database\Grammar.php:95
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Database\Grammar.php(95): Illuminate\Exception\Handler->handleError(4096, 'Argument 1 pass...', 'C:\\xampp\\htdocs...', 95, Array)
+#1 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Database\Query\Grammars\Grammar.php(111): Illuminate\Database\Grammar->columnize('users')
+#2 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Database\Query\Grammars\Grammar.php(66): Illuminate\Database\Query\Grammars\Grammar->compileColumns(Object(Illuminate\Database\Query\Builder), 'users')
+#3 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Database\Query\Grammars\Grammar.php(44): Illuminate\Database\Query\Grammars\Grammar->compileComponents(Object(Illuminate\Database\Query\Builder))
+#4 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Database\Query\Builder.php(878): Illuminate\Database\Query\Grammars\Grammar->compileSelect(Object(Illuminate\Database\Query\Builder))
+#5 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Database\Query\Builder.php(966): Illuminate\Database\Query\Builder->toSql()
+#6 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Database\Query\Builder.php(956): Illuminate\Database\Query\Builder->runSelect()
+#7 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Database\Query\Builder.php(943): Illuminate\Database\Query\Builder->getFresh('users')
+#8 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Builder.php(397): Illuminate\Database\Query\Builder->get('users')
+#9 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Builder.php(112): Illuminate\Database\Eloquent\Builder->getModels('users')
+#10 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(5415): Illuminate\Database\Eloquent\Builder->get('users')
+#11 C:\xampp\htdocs\laravel_users\app\controllers\HomeController.php(64): Illuminate\Database\Eloquent\Model::all('users')
+#12 [internal function]: HomeController->getRegister()
+#13 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#14 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('getRegister', Array)
+#15 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4768): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'getRegister', Array)
+#16 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#17 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(7838): call_user_func_array(Object(Closure), Array)
+#18 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(7825): Illuminate\Routing\Route->callCallable()
+#19 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4779): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#20 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#21 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#22 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#23 {main} [] []
+[2014-10-27 09:55:21] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '->' (T_OBJECT_OPERATOR)' in C:\xampp\htdocs\laravel_users\app\storage\views\8808b57d1f2446af6be8f5c88e5715ed:22
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-10-27 09:55:33] log.ERROR: exception 'ErrorException' with message 'Undefined variable: usercat' in C:\xampp\htdocs\laravel_users\app\controllers\HomeController.php:68
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\app\controllers\HomeController.php(68): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 68, Array)
+#1 [internal function]: HomeController->getRegister()
+#2 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('getRegister', Array)
+#4 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4768): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'getRegister', Array)
+#5 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#6 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(7838): call_user_func_array(Object(Closure), Array)
+#7 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(7825): Illuminate\Routing\Route->callCallable()
+#8 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4779): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#12 {main} [] []
+[2014-10-27 09:55:46] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '->' (T_OBJECT_OPERATOR)' in C:\xampp\htdocs\laravel_users\app\storage\views\8808b57d1f2446af6be8f5c88e5715ed:22
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-10-27 09:57:25] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '->' (T_OBJECT_OPERATOR)' in C:\xampp\htdocs\laravel_users\app\storage\views\8808b57d1f2446af6be8f5c88e5715ed:22
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-10-27 12:30:10] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\laravel_users\bootstrap\compiled.php:4945
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4790): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4778): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-10-27 12:41:27] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\laravel_users\bootstrap\compiled.php:4945
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4790): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4778): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-10-27 12:42:34] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\laravel_users\bootstrap\compiled.php:4945
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4790): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4778): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-10-27 12:43:02] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\laravel_users\bootstrap\compiled.php:4945
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4790): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4778): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-10-27 12:44:10] log.ERROR: exception 'InvalidArgumentException' with message 'View [categories.addcategories] not found.' in C:\xampp\htdocs\laravel_users\bootstrap\compiled.php:8077
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(8050): Illuminate\View\FileViewFinder->findInPaths('categories.addc...', Array)
+#1 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(8150): Illuminate\View\FileViewFinder->find('categories.addc...')
+#2 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(3336): Illuminate\View\Environment->make('categories.addc...')
+#3 C:\xampp\htdocs\laravel_users\app\controllers\CategoriesController.php(26): Illuminate\Support\Facades\Facade::__callStatic('make', Array)
+#4 C:\xampp\htdocs\laravel_users\app\controllers\CategoriesController.php(26): Illuminate\Support\Facades\View::make('categories.addc...')
+#5 [internal function]: CategoriesController->addCategory()
+#6 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#7 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('addCategory', Array)
+#8 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4768): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'addCategory', Array)
+#9 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#10 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(7838): call_user_func_array(Object(Closure), Array)
+#11 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(7825): Illuminate\Routing\Route->callCallable()
+#12 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4779): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#13 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#14 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#15 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#16 {main} [] []
+[2014-10-27 12:54:44] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '/'' in C:\xampp\htdocs\laravel_users\app\controllers\CategoriesController.php:143
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-10-27 12:54:59] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\laravel_users\bootstrap\compiled.php:4945
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4790): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4778): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-10-27 12:56:35] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\laravel_users\bootstrap\compiled.php:4945
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4790): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4778): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-10-27 12:58:18] log.ERROR: exception 'Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'updated_at' in 'field list' (SQL: insert into `categories` (`catname`, `updated_at`, `created_at`) values (?, ?, ?)) (Bindings: array (
+  0 => 'Discount',
+  1 => '2014-10-27 12:58:18',
+  2 => '2014-10-27 12:58:18',
+))' in C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Database\Connection.php:502
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Database\Connection.php(475): Illuminate\Database\Connection->handleQueryException(Object(PDOException), 'insert into `ca...', Array)
+#1 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Database\Connection.php(324): Illuminate\Database\Connection->run('insert into `ca...', Array, Object(Closure))
+#2 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Database\Connection.php(281): Illuminate\Database\Connection->statement('insert into `ca...', Array)
+#3 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Database\Query\Processors\Processor.php(30): Illuminate\Database\Connection->insert('insert into `ca...', Array)
+#4 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Database\Query\Builder.php(1347): Illuminate\Database\Query\Processors\Processor->processInsertGetId(Object(Illuminate\Database\Query\Builder), 'insert into `ca...', Array, 'id')
+#5 [internal function]: Illuminate\Database\Query\Builder->insertGetId(Array, 'id')
+#6 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Builder.php(729): call_user_func_array(Array, Array)
+#7 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(5719): Illuminate\Database\Eloquent\Builder->__call('insertGetId', Array)
+#8 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(5719): Illuminate\Database\Eloquent\Builder->insertGetId(Array, 'id')
+#9 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(5709): Illuminate\Database\Eloquent\Model->insertAndSetId(Object(Illuminate\Database\Eloquent\Builder), Array)
+#10 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(5668): Illuminate\Database\Eloquent\Model->performInsert(Object(Illuminate\Database\Eloquent\Builder))
+#11 C:\xampp\htdocs\laravel_users\app\controllers\CategoriesController.php(161): Illuminate\Database\Eloquent\Model->save()
+#12 [internal function]: CategoriesController->postCategtory()
+#13 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#14 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postCategtory', Array)
+#15 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4768): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postCategtory', Array)
+#16 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#17 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(7838): call_user_func_array(Object(Closure), Array)
+#18 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(7825): Illuminate\Routing\Route->callCallable()
+#19 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4779): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#20 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#21 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#22 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#23 {main} [] []
+[2014-10-27 13:10:57] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\laravel_users\bootstrap\compiled.php:4945
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4790): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4778): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-10-27 15:26:15] log.ERROR: exception 'ErrorException' with message 'Undefined variable: input' in C:\xampp\htdocs\laravel_users\app\storage\views\8808b57d1f2446af6be8f5c88e5715ed:27
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\app\storage\views\8808b57d1f2446af6be8f5c88e5715ed(27): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(9050): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(8943): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(8934): Illuminate\View\View->getContents()
+#5 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(9528): Illuminate\View\View->render()
+#6 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(9076): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4938): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(156): Illuminate\Routing\Router->prepare(Object(Illuminate\View\View), Object(Illuminate\Http\Request))
+#9 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'getRegister', Object(Illuminate\View\View))
+#10 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4768): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'getRegister', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#12 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(7838): call_user_func_array(Object(Closure), Array)
+#13 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(7825): Illuminate\Routing\Route->callCallable()
+#14 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4779): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2014-10-27 15:30:42] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\laravel_users\bootstrap\compiled.php:4945
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4790): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4778): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-10-27 15:47:38] log.ERROR: exception 'ErrorException' with message 'Use of undefined constant username - assumed 'username'' in C:\xampp\htdocs\laravel_users\app\storage\views\8808b57d1f2446af6be8f5c88e5715ed:33
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\app\storage\views\8808b57d1f2446af6be8f5c88e5715ed(33): Illuminate\Exception\Handler->handleError(8, 'Use of undefine...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(9050): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(8943): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(8934): Illuminate\View\View->getContents()
+#5 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(9528): Illuminate\View\View->render()
+#6 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(9076): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4938): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(156): Illuminate\Routing\Router->prepare(Object(Illuminate\View\View), Object(Illuminate\Http\Request))
+#9 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'getRegister', Object(Illuminate\View\View))
+#10 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4768): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'getRegister', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#12 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(7838): call_user_func_array(Object(Closure), Array)
+#13 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(7825): Illuminate\Routing\Route->callCallable()
+#14 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4779): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2014-10-27 15:50:48] log.ERROR: exception 'ErrorException' with message 'Undefined variable: usres' in C:\xampp\htdocs\laravel_users\app\storage\views\8808b57d1f2446af6be8f5c88e5715ed:27
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\app\storage\views\8808b57d1f2446af6be8f5c88e5715ed(27): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(9050): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(8943): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(8934): Illuminate\View\View->getContents()
+#5 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(9528): Illuminate\View\View->render()
+#6 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(9076): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4938): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(156): Illuminate\Routing\Router->prepare(Object(Illuminate\View\View), Object(Illuminate\Http\Request))
+#9 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'getRegister', Object(Illuminate\View\View))
+#10 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4768): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'getRegister', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#12 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(7838): call_user_func_array(Object(Closure), Array)
+#13 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(7825): Illuminate\Routing\Route->callCallable()
+#14 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4779): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2014-10-27 15:51:35] log.ERROR: exception 'ErrorException' with message 'Undefined variable: input' in C:\xampp\htdocs\laravel_users\app\storage\views\8808b57d1f2446af6be8f5c88e5715ed:27
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\app\storage\views\8808b57d1f2446af6be8f5c88e5715ed(27): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(9050): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(8943): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(8934): Illuminate\View\View->getContents()
+#5 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(9528): Illuminate\View\View->render()
+#6 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(9076): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4938): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(156): Illuminate\Routing\Router->prepare(Object(Illuminate\View\View), Object(Illuminate\Http\Request))
+#9 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'getRegister', Object(Illuminate\View\View))
+#10 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4768): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'getRegister', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#12 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(7838): call_user_func_array(Object(Closure), Array)
+#13 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(7825): Illuminate\Routing\Route->callCallable()
+#14 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4779): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2014-10-27 15:51:48] log.ERROR: exception 'ErrorException' with message 'Undefined variable: rules' in C:\xampp\htdocs\laravel_users\app\storage\views\8808b57d1f2446af6be8f5c88e5715ed:27
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\app\storage\views\8808b57d1f2446af6be8f5c88e5715ed(27): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(9050): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(8943): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(8934): Illuminate\View\View->getContents()
+#5 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(9528): Illuminate\View\View->render()
+#6 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(9076): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4938): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(156): Illuminate\Routing\Router->prepare(Object(Illuminate\View\View), Object(Illuminate\Http\Request))
+#9 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'getRegister', Object(Illuminate\View\View))
+#10 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4768): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'getRegister', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#12 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(7838): call_user_func_array(Object(Closure), Array)
+#13 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(7825): Illuminate\Routing\Route->callCallable()
+#14 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4779): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2014-10-27 15:52:40] log.ERROR: exception 'ErrorException' with message 'Undefined variable: username' in C:\xampp\htdocs\laravel_users\app\storage\views\8808b57d1f2446af6be8f5c88e5715ed:27
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\app\storage\views\8808b57d1f2446af6be8f5c88e5715ed(27): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(9050): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(8943): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(8934): Illuminate\View\View->getContents()
+#5 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(9528): Illuminate\View\View->render()
+#6 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(9076): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4938): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(156): Illuminate\Routing\Router->prepare(Object(Illuminate\View\View), Object(Illuminate\Http\Request))
+#9 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'getRegister', Object(Illuminate\View\View))
+#10 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4768): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'getRegister', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#12 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(7838): call_user_func_array(Object(Closure), Array)
+#13 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(7825): Illuminate\Routing\Route->callCallable()
+#14 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4779): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2014-10-27 15:52:59] log.ERROR: exception 'ErrorException' with message 'Undefined variable: username' in C:\xampp\htdocs\laravel_users\app\storage\views\8808b57d1f2446af6be8f5c88e5715ed:27
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\app\storage\views\8808b57d1f2446af6be8f5c88e5715ed(27): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(9050): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(8943): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(8934): Illuminate\View\View->getContents()
+#5 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(9528): Illuminate\View\View->render()
+#6 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(9076): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4938): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(156): Illuminate\Routing\Router->prepare(Object(Illuminate\View\View), Object(Illuminate\Http\Request))
+#9 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'getRegister', Object(Illuminate\View\View))
+#10 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4768): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'getRegister', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#12 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(7838): call_user_func_array(Object(Closure), Array)
+#13 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(7825): Illuminate\Routing\Route->callCallable()
+#14 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4779): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2014-10-27 15:53:10] log.ERROR: exception 'ErrorException' with message 'Undefined variable: user' in C:\xampp\htdocs\laravel_users\app\storage\views\8808b57d1f2446af6be8f5c88e5715ed:27
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\app\storage\views\8808b57d1f2446af6be8f5c88e5715ed(27): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(9050): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(8943): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(8934): Illuminate\View\View->getContents()
+#5 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(9528): Illuminate\View\View->render()
+#6 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(9076): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4938): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(156): Illuminate\Routing\Router->prepare(Object(Illuminate\View\View), Object(Illuminate\Http\Request))
+#9 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'getRegister', Object(Illuminate\View\View))
+#10 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4768): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'getRegister', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#12 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(7838): call_user_func_array(Object(Closure), Array)
+#13 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(7825): Illuminate\Routing\Route->callCallable()
+#14 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4779): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2014-10-27 16:02:43] log.ERROR: exception 'ErrorException' with message 'Undefined variable: user' in C:\xampp\htdocs\laravel_users\app\storage\views\8808b57d1f2446af6be8f5c88e5715ed:27
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\app\storage\views\8808b57d1f2446af6be8f5c88e5715ed(27): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(9050): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(8943): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(8934): Illuminate\View\View->getContents()
+#5 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(9528): Illuminate\View\View->render()
+#6 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(9076): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4938): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(156): Illuminate\Routing\Router->prepare(Object(Illuminate\View\View), Object(Illuminate\Http\Request))
+#9 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'getRegister', Object(Illuminate\View\View))
+#10 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4768): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'getRegister', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#12 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(7838): call_user_func_array(Object(Closure), Array)
+#13 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(7825): Illuminate\Routing\Route->callCallable()
+#14 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4779): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2014-10-27 16:06:47] log.ERROR: exception 'ErrorException' with message 'Undefined variable: vakcheck' in C:\xampp\htdocs\laravel_users\app\storage\views\8808b57d1f2446af6be8f5c88e5715ed:34
+Stack trace:
+#0 C:\xampp\htdocs\laravel_users\app\storage\views\8808b57d1f2446af6be8f5c88e5715ed(34): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(9050): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(8943): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(8934): Illuminate\View\View->getContents()
+#5 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(9528): Illuminate\View\View->render()
+#6 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(9076): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4938): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(156): Illuminate\Routing\Router->prepare(Object(Illuminate\View\View), Object(Illuminate\Http\Request))
+#9 C:\xampp\htdocs\laravel_users\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'getRegister', Object(Illuminate\View\View))
+#10 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4768): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'getRegister', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#12 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(7838): call_user_func_array(Object(Closure), Array)
+#13 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(7825): Illuminate\Routing\Route->callCallable()
+#14 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(4779): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(483): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 C:\xampp\htdocs\laravel_users\bootstrap\compiled.php(472): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 C:\xampp\htdocs\laravel_users\public\index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2014-10-27 16:13:10] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '<'' in C:\xampp\htdocs\laravel_users\app\storage\views\8808b57d1f2446af6be8f5c88e5715ed:54
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-10-27 16:14:21] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '<'' in C:\xampp\htdocs\laravel_users\app\storage\views\8808b57d1f2446af6be8f5c88e5715ed:54
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-10-27 16:15:09] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '<'' in C:\xampp\htdocs\laravel_users\app\storage\views\8808b57d1f2446af6be8f5c88e5715ed:54
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-10-27 16:18:44] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '<'' in C:\xampp\htdocs\laravel_users\app\storage\views\8808b57d1f2446af6be8f5c88e5715ed:53
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
